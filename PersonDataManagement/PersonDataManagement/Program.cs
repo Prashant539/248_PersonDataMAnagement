@@ -20,6 +20,7 @@ namespace PersonDataManagement
             
             Operations operations = new Operations();
             operations.RetreiveTopRecordsOfAge(people);
+            operations.RetreiveAllRecordsOfAge(people);
         }
     }
 }
